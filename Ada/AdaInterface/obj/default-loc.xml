@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<Locations >
+  <Project>
+    <vfs_file />
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\randy\Documents\AdaInterface\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 18" line=" 7" >
+      <vfs_project />
+      <vfs_file>C:\Users\randy\Documents\AdaInterface\src\example1_pkg.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\randy\Documents\AdaInterface\src_ada\hello.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\randy\Documents\AdaInterface\src_ada\hello.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\randy\Documents\AdaInterface\src_ada\hello.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\randy\Documents\AdaInterface\src_java\com\adacore\example\Main.java</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\randy\Documents\AdaInterface\src_ada\hello.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\randy\Documents\AdaInterface\src_ada\hello.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\randy\Documents\AdaInterface\src_ada\hello.adb</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\randy\Documents\AdaInterface\src_ada\hello.ads</vfs_file>
+    </file_marker>
+  </Project>
+  <Project >
+    <vfs_file >C:\Users\randy\Documents\AdaInterface\default.gpr</vfs_file>
+    <file_marker current="true" column=" 1" line=" 1">
+      <vfs_project >C:\Users\randy\Documents\AdaInterface\default.gpr</vfs_project>
+      <vfs_file >C:\Users\randy\Documents\AdaInterface\src\main.adb</vfs_file>
+    </file_marker>
+  </Project>
+</Locations>
