@@ -1,0 +1,152 @@
+V "GNAT Lib v2021"
+M P W=b
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_IO
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_UNCHECKED_ACCESS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U main%b		main.adb		4e12c665 NE OO SU
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W interfaces%s		interfac.ads		interfac.ali
+W interfaces.c%s	i-c.adb			i-c.ali
+W interfaces.c.strings%s  i-cstrin.adb		i-cstrin.ali
+W jni%s			jni.ads			jni.ali
+W system%s		system.ads		system.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W text_io%s		text_io.ads		text_io.ali
+
+D ada.ads		20210520051132 76789da1 ada%s
+D a-except.ads		20210520051128 946f3014 ada.exceptions%s
+D a-ioexce.ads		20210520051128 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20210520051130 119b8fb3 ada.streams%s
+D a-string.ads		20210520051130 90ac6797 ada.strings%s
+D a-sttebu.ads		20210520051130 18209c64 ada.strings.text_buffers%s
+D a-stuten.ads		20210520051130 808c40ad ada.strings.utf_encoding%s
+D a-tags.ads		20210520051130 9eaa38c6 ada.tags%s
+D a-textio.ads		20210520051130 aef4d56d ada.text_io%s
+D a-unccon.ads		20210520051130 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20210520051132 edec285f interfaces%s
+D i-c.ads		20210520051132 d9beded9 interfaces.c%s
+D i-cpoint.ads		20210520051132 ee8a93ec interfaces.c.pointers%s
+D i-cstrin.ads		20210520051132 341d0ddf interfaces.c.strings%s
+D i-cstrea.ads		20210520051132 e53d8b8e interfaces.c_streams%s
+D jni.ads		20220207195200 33fc69fd jni%s
+D jni_md.ads		20220207195200 b79ac850 jni_md%s
+D main.adb		20220207195928 9e05e512 main%b
+D system.ads		20210520051136 2ffa5114 system%s
+D s-crtl.ads		20210520051132 0ebbdb71 system.crtl%s
+D s-exctab.ads		20210520051132 54135002 system.exception_table%s
+D s-ficobl.ads		20210520051132 078245e4 system.file_control_block%s
+D s-parame.ads		20210520051134 4752c4cb system.parameters%s
+D s-putima.ads		20210520051134 4e095881 system.put_images%s
+D s-secsta.ads		20210520051134 9b3ab94b system.secondary_stack%s
+D s-soflin.ads		20210520051134 a7318a92 system.soft_links%s
+D s-stache.ads		20210520051134 a37c21ec system.stack_checking%s
+D s-stalib.ads		20210520051134 472fbca8 system.standard_library%s
+D s-stoele.ads		20210520051134 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20210520051134 ed88f8fb system.storage_elements%b
+D s-traent.ads		20210520051134 26a8d361 system.traceback_entries%s
+D s-unstyp.ads		20210520051134 2b077493 system.unsigned_types%s
+D s-wchcon.ads		20210520051136 1b7d22d2 system.wch_con%s
+D text_io.ads		20210520051136 21b2c898 text_io%s
+D unchconv.ads		20210520051136 ca2f9e18 unchecked_conversion%s
+G a e
+G c Z b b [main standard 8 11 none]
+G r s jobject_arrays [main standard 8 11 none] [jobject_arraysIP jni 147 9 none]
+G r c none [main standard 8 11 none] [create_java_vm jni 1695 13 none]
+X 9 a-textio.ads
+506U14*Put_Line 18|44s7 81s7
+X 11 interfac.ads
+38K9*Interfaces 231e15 18|2r6 2r24 3r6 3r32
+X 12 i-c.ads
+18K20*C 237e17 18|2w17 2r35 3r17 3r43
+35I9*int<integer>
+153E9*char16_t<wide_character>
+165A9*char16_array(153E9)<62M9> 18|30r42
+171V13*To_C{165A9} 18|30s61
+X 13 i-cpoint.ads
+47P9*Pointer(16|1628R9) 18|31r50[16|49]
+X 14 i-cstrin.ads
+36K22*Strings 106e25 18|3w19 3r45
+47P9*chars_ptr 18|24r34 25r34 26r34 27r34 28r34 29r34
+60V13*New_String{47P9} 18|15s31 24s61 25s61 26s61 27s61 28s61 29s61
+62U14*Free 18|69s7 72s4 73s4 74s4 75s4 76s4 77s4
+X 16 jni.ads
+7K9*JNI 1726e8 18|4w6 4r15 33r34 34r34 36r34 39r42
+8N4*JNI_OK 18|43r17 80r38
+22I12*jint{17|6I12} 18|39r34 41r13
+29n29*True{29E9} 18|22r31
+49K12*jchar_Array_Ptr[13|44] 18|31r34
+142R9*jobject_Type
+144P9*jobject(142R9) 18|34r38
+147A9*jobject_Arrays(144P9)<12|35I9> 18|38r42
+159P12*jclass{144P9} 18|32r34 35r34
+161P12*jstring{144P9} 18|37r34
+236I9*Versions<12|35I9>
+242i4*JNI_VERSION_1_8{236I9} 18|19r31
+259R9*jfieldID_Type
+261P9*jfieldID(259R9) 18|33r38
+264R9*jmethodID_Type
+266P9*jmethodID(264R9) 18|36r38
+298P9*Java_VM_Ptr(297R9)
+300P9*Java_VM_Ptr_Ptr(298P9) 18|11r14
+307P9*Env_Ptr(306R9)
+309P9*Env_Ptr_Ptr(307P9) 18|12r14
+327p7*Find_Class(144P9) 18|47r36 54r41
+443p7*Get_Method_ID(266P9) 18|57r41
+623p7*Call_Void_Method_A 18|64r15
+1130p7*Get_Static_Field_ID(261P9) 18|50r36
+1136p7*Get_Static_Object_Field(144P9) 18|51r36
+1235p7*New_String(144P9) 18|60r31
+1629p7*Option_String{14|47P9} 18|15m14 69m15
+1630m7*Extra_Info{19|67M9} 18|16m14
+1634A9*VM_Option_Arrays(1628R9)<12|35I9> 18|14r22
+1645R9*VM_Init_Args 1650e15 18|18r22
+1646i7*Version{236I9} 18|19m8
+1647i7*Total_Options{22I12} 18|20m8
+1648p7*Options{13|47P9[1637]} 18|21m8
+1649e7*Ignore_Unrecognised{29E9} 18|22m8
+1669p7*Destroy_Java_VM(12|35I9) 18|80r14
+1695V13*Create_Java_VM{22I12} 18|39s46
+X 17 jni_md.ads
+6I12*jint{12|35I9}
+X 18 main.adb
+8U11*Main 8b11 83l5 83t9
+11p4 VM{16|300P9} 39m62 39r62 80r7 80r31
+12p4 Env{16|309P9} 39m66 39r66 47r28 47r48 50r28 50r57 51r28 51r61 54r33
+. 54r53 57r33 57r56 60r23 60r43 64r7 64r35
+14a4 Options{16|1634A9} 20r31 21m31 21r31 68m13 68r13
+18r4 Args{16|1645R9} 39m71 39r71
+24p4 Java_System_Class_Name{14|47P9} 47r53 72m10 72r10
+25p4 Java_Out_Name{14|47P9} 50r81 73m10 73r10
+26p4 Java_Out_Name_Sig{14|47P9} 50r96 74m10 74r10
+27p4 Java_PrintStream_Class_Name{14|47P9} 54r58 75m10 75r10
+28p4 Java_Println_Name{14|47P9} 57r85 76m10 76r10
+29p4 Java_Println_Name_Sig{14|47P9} 57r104 77m10 77r10
+30a4 Java_Message_Unicode_C{12|165A9} 31m61 31r61 60r70
+31p4 Java_Message_Unicode{13|47P9[16|49]} 60r48
+32p4 Java_System_Class{16|159P12} 47m7 50r62 51r66
+33p4 Java_Out_Field_ID{16|261P9} 50m7 51r85
+34p4 Java_Out_Object{16|144P9} 51m7 64r40
+35p4 Java_PrintStream_Class{16|159P12} 54m7 57r61
+36p4 Java_Println_Method_ID{16|266P9} 57m7 64r57
+37p4 Java_Message{16|161P12} 60m7 62r32
+38a4 Java_Println_Args{16|147A9} 62m7 64m81 64r81
+39i4 Result{16|22I12} 43r7
+68r8 S=68:13{16|1628R9} 69r13
+X 19 system.ads
+37K9*System 18|5w6 16r31 19|193e11
+67M9*Address
+69m4*Null_Address{67M9} 18|16r38
+X 34 text_io.ads
+24K9*Text_IO=24:29 18|6w6 6r19
+
