@@ -1,0 +1,294 @@
+V "GNAT Lib v2021"
+A -O2
+A -gnatA
+A -fno-strict-aliasing
+A -gnatn
+A -gnatws
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTION_PROPAGATION
+RV NO_EXCEPTIONS
+RV NO_FINALIZATION
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_LOCAL_ALLOCATORS
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_UNCHECKED_CONVERSION
+RV NO_UNCHECKED_DEALLOCATION
+RV NO_DEFAULT_INITIALIZATION
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+I 22 s 1242
+I 8 s 1243
+I 4 s 1244
+I 11 s 1245
+
+U jni_binding.ada_jni.exceptions_jni.exception_occurrence_jni%b  jni_binding-ada_jni-exceptions_jni-exception_occurrence_jni.adb  be385f7b NE OO PK
+W ada%s			ada.ads			ada.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W ada.unchecked_conversion%s
+W ada.unchecked_deallocation%s
+Z ajis.internal.java%s	ajis-internal-java.adb	ajis-internal-java.ali  AD
+W interfaces%s		interfac.ads		interfac.ali
+W interfaces.c%s	i-c.adb			i-c.ali
+W interfaces.c.strings%s  i-cstrin.adb		i-cstrin.ali
+W jni_binding.ada_jni.exceptions_jni%s  jni_binding-ada_jni-exceptions_jni.adb  jni_binding-ada_jni-exceptions_jni.ali
+W system%s		system.ads		system.ali
+W system.address_to_access_conversions%s
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+
+U jni_binding.ada_jni.exceptions_jni.exception_occurrence_jni%s  jni_binding-ada_jni-exceptions_jni-exception_occurrence_jni.ads  dfdc5b55 EE OO PK
+W ada%s			ada.ads			ada.ali
+W ada.characters%s	a-charac.ads		a-charac.ali
+W ada.characters.conversions%s  a-chacon.adb	a-chacon.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.finalization%s	a-finali.ads		a-finali.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W ajis%s		ajis.ads		ajis.ali
+W ajis.internal%s	ajis-internal.ads	ajis-internal.ali
+W ajis.internal.java%s	ajis-internal-java.adb	ajis-internal-java.ali
+W ajis.java%s		ajis-java.ads		ajis-java.ali
+W interfaces%s		interfac.ads		interfac.ali
+W interfaces.java%s	i-java.ads		i-java.ali
+W interfaces.java.jni%s	i-javjni.adb		i-javjni.ali
+W jni_binding.ada_jni.exceptions_jni%s  jni_binding-ada_jni-exceptions_jni.adb  jni_binding-ada_jni-exceptions_jni.ali
+
+D ada.ads		20210520051132 76789da1 ada%s
+D a-charac.ads		20210520051128 2d3ec45b ada.characters%s
+D a-chacon.ads		20210520051128 5b23f5eb ada.characters.conversions%s
+D a-contai.ads		20210520051128 61e5e089 ada.containers%s
+D a-cdlili.ads		20210520051128 ad05d077 ada.containers.doubly_linked_lists%s
+D a-conhel.ads		20210520051128 20298884 ada.containers.helpers%s
+D a-ciorma.ads		20210520051128 3aa5dad0 ada.containers.indefinite_ordered_maps%s
+D a-crbltr.ads		20210520051128 d3d16ba4 ada.containers.red_black_trees%s
+D a-except.ads		20210520051128 946f3014 ada.exceptions%s
+D a-finali.ads		20210520051128 bf4f806b ada.finalization%s
+D a-interr.ads		20210520051128 bdf68b51 ada.interrupts%s
+D a-intnam.ads		20210520051128 b1360ffd ada.interrupts.names%s
+D a-iteint.ads		20210520051128 49a8bee2 ada.iterator_interfaces%s
+D a-stream.ads		20210520051130 119b8fb3 ada.streams%s
+D a-string.ads		20210520051130 90ac6797 ada.strings%s
+D a-sttebu.ads		20210520051130 18209c64 ada.strings.text_buffers%s
+D a-stuten.ads		20210520051130 808c40ad ada.strings.utf_encoding%s
+D a-tags.ads		20210520051130 9eaa38c6 ada.tags%s
+D a-taside.ads		20210520051128 00e3a3f6 ada.task_identification%s
+D a-unccon.ads		20210520051130 0e9b276f ada.unchecked_conversion%s
+D a-uncdea.ads		20210520051130 c3a8ac65 ada.unchecked_deallocation%s
+D ajis.ads		20120507100656 77a68cb4 ajis%s
+D ajis-internal.ads	20120507100656 f820dc84 ajis.internal%s
+D ajis-internal-java.ads  20120507100706 7258b48c ajis.internal.java%s
+D ajis-java.ads		20120507100656 0c852c66 ajis.java%s
+D interfac.ads		20210520051132 edec285f interfaces%s
+D i-c.ads		20210520051132 d9beded9 interfaces.c%s
+D i-cpoint.ads		20210520051132 ee8a93ec interfaces.c.pointers%s
+D i-cstrin.ads		20210520051132 341d0ddf interfaces.c.strings%s
+D i-java.ads		20120507100704 e9718391 interfaces.java%s
+D i-javjni.ads		20161012000532 2ae03f60 interfaces.java.jni%s
+D jni_binding.ads	20220211162912 0ce947bc jni_binding%s
+D jni_binding-ada_jni.ads  20220211162912 69333149 jni_binding.ada_jni%s
+D jni_binding-ada_jni-exceptions_jni.ads  20220211162912 fc656eda jni_binding.ada_jni.exceptions_jni%s
+D jni_binding-ada_jni-exceptions_jni-exception_occurrence_jni.ads  20220211162912 6a162a14 jni_binding.ada_jni.exceptions_jni.exception_occurrence_jni%s
+D jni_binding-ada_jni-exceptions_jni-exception_occurrence_jni.adb  20220211162912 b24df49e jni_binding.ada_jni.exceptions_jni.exception_occurrence_jni%b
+D system.ads		20210520051136 2ffa5114 system%s
+D s-atacco.ads		20210520051132 4c36d12f system.address_to_access_conversions%s
+D s-atocou.ads		20210520051132 b45c2d8d system.atomic_counters%s
+D s-exctab.ads		20210520051132 54135002 system.exception_table%s
+D s-finmas.ads		20210520051132 1ab4dba8 system.finalization_masters%s
+D s-finroo.ads		20210520051132 4ff27390 system.finalization_root%s
+D s-interr.ads		20210520051128 eb5619e8 system.interrupts%s
+D s-multip.ads		20210520051134 38ac9f73 system.multiprocessors%s
+D s-osinte.ads		20210520051128 97504df8 system.os_interface%s
+D s-parame.ads		20210520051134 4752c4cb system.parameters%s
+D s-pooglo.ads		20210520051134 ede33ef8 system.pool_global%s
+D s-putima.ads		20210520051134 4e095881 system.put_images%s
+D s-secsta.ads		20210520051134 9b3ab94b system.secondary_stack%s
+D s-soflin.ads		20210520051134 a7318a92 system.soft_links%s
+D s-stache.ads		20210520051134 a37c21ec system.stack_checking%s
+D s-stausa.ads		20210520051134 017a0a05 system.stack_usage%s
+D s-stalib.ads		20210520051134 472fbca8 system.standard_library%s
+D s-stoele.ads		20210520051134 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20210520051134 ed88f8fb system.storage_elements%b
+D s-stopoo.ads		20210520051134 e9fa2dd8 system.storage_pools%s
+D s-stratt.ads		20210520051134 7bdda3fa system.stream_attributes%s
+D s-tasinf.ads		20210520051128 601f6b72 system.task_info%s
+D s-taspri.ads		20210520051128 a1350802 system.task_primitives%s
+D s-taskin.ads		20210520051128 88fba9ad system.tasking%s
+D s-taprob.ads		20210520051128 acd6094d system.tasking.protected_objects%s
+D s-tpoben.ads		20210520051128 60ad3dae system.tasking.protected_objects.entries%s
+D s-traent.ads		20210520051134 26a8d361 system.traceback_entries%s
+D s-unstyp.ads		20210520051134 2b077493 system.unsigned_types%s
+D s-win32.ads		20210520051136 15ac53fb system.win32%s
+D unchconv.ads		20210520051136 ca2f9e18 unchecked_conversion%s
+G a e
+G c s s s [s jni_binding__ada_jni__exceptions_jni__exception_occurrence_jni 22 1 none]
+G c Z s b [jni_for_body_elaboration jni_binding__ada_jni__exceptions_jni__exception_occurrence_jni 24 14 none]
+G c Z s b [initialize_unit_jni jni_binding__ada_jni__exceptions_jni__exception_occurrence_jni 26 14 none]
+G c Z s b [id_jni_22 jni_binding__ada_jni__exceptions_jni__exception_occurrence_jni 28 13 none]
+G c Z s b [exception_occurrence_id_jni_21 jni_binding__ada_jni__exceptions_jni__exception_occurrence_jni 30 13 none]
+G c Z s b [id_jni_33 jni_binding__ada_jni__exceptions_jni__exception_occurrence_jni 33 14 none]
+G c Z s b [deallocatenativeobject_id_jni_32 jni_binding__ada_jni__exceptions_jni__exception_occurrence_jni 35 14 none]
+G r c none [s jni_binding__ada_jni__exceptions_jni__exception_occurrence_jni 22 1 none] [get_java_method ajis__internal__java 130 13 none]
+G r c none [initialize_unit_jni jni_binding__ada_jni__exceptions_jni__exception_occurrence_jni 26 14 none] [initialize ajis__internal__java 155 14 none]
+G r c none [exception_occurrence_id_jni_21 jni_binding__ada_jni__exceptions_jni__exception_occurrence_jni 30 13 none] [to_jintarray jni_binding__ada_jni__exceptions_jni__id_jni_5 290 16 27_4]
+G r c none [exception_occurrence_id_jni_21 jni_binding__ada_jni__exceptions_jni__exception_occurrence_jni 30 13 none] [throwable_value ajis__internal__java 347 13 none]
+G r c none [exception_occurrence_id_jni_21 jni_binding__ada_jni__exceptions_jni__exception_occurrence_jni 30 13 none] [create_java_exception ajis__internal__java 332 13 none]
+G r c none [exception_occurrence_id_jni_21 jni_binding__ada_jni__exceptions_jni__exception_occurrence_jni 30 13 none] [get_class ajis__internal__java 173 13 none]
+G r c none [id_jni_33 jni_binding__ada_jni__exceptions_jni__exception_occurrence_jni 33 14 none] [free jni_binding__ada_jni__exceptions_jni__id_jni_5 302 17 27_4]
+G r c none [deallocatenativeobject_id_jni_32 jni_binding__ada_jni__exceptions_jni__exception_occurrence_jni 35 14 none] [to_pointer jni_binding__ada_jni__exceptions_jni__id_jni_5 296 16 27_4]
+G r c none [deallocatenativeobject_id_jni_32 jni_binding__ada_jni__exceptions_jni__exception_occurrence_jni 35 14 none] [free jni_binding__ada_jni__exceptions_jni__id_jni_5 302 17 27_4]
+G r c none [deallocatenativeobject_id_jni_32 jni_binding__ada_jni__exceptions_jni__exception_occurrence_jni 35 14 none] [throwable_value ajis__internal__java 347 13 none]
+G r c none [deallocatenativeobject_id_jni_32 jni_binding__ada_jni__exceptions_jni__exception_occurrence_jni 35 14 none] [create_java_exception ajis__internal__java 332 13 none]
+G r c none [deallocatenativeobject_id_jni_32 jni_binding__ada_jni__exceptions_jni__exception_occurrence_jni 35 14 none] [get_class ajis__internal__java 173 13 none]
+X 1 ada.ads
+16K9*Ada 20e8 35|16r6 17r6 18w6 18r15 19r6 19r26 20r6 28r126 33r38 36|11r6
+. 13r6 14r6 15r6 30r126 31r205 53r96 63r160 71r38 89r96 98r160
+X 2 a-charac.ads
+16K13*Characters 18e19 35|16r10
+X 3 a-chacon.ads
+36K24*Conversions 86e31 35|16w21
+X 9 a-except.ads
+44K13*Exceptions 289e19 35|19w10 19r30 20w10 28r130 33r42 36|15w10 30r130
+. 31r209 53r100 63r164 71r42 89r100 98r164
+53R9*Exception_Occurrence 263e14 35|28r141 33r53 36|30r141 31r220 71r53
+84V13*Exception_Message{string} 36|53s111 89s111
+94V13*Exception_Information{string} 36|63s175 98s175
+X 10 a-finali.ads
+40K13*Finalization 68e21 35|17w10
+X 13 a-iteint.ads
+24h9 Forward_Iterator
+32h9 Reversible_Iterator<24R9[7|78]>
+X 18 a-tags.ads
+70K13*Tags 668e13 36|14w10
+X 20 a-unccon.ads
+20v14*Unchecked_Conversion 36|13w10
+X 21 a-uncdea.ads
+20u15*Unchecked_Deallocation 36|11w10
+X 22 ajis.ads
+24K9*AJIS 26e9 35|12w6 13r6 14r6 15r6 38r15 38r56 36|27r7 49r16 53r60 61r23
+. 63r67 63r97 85r16 89r60 96r23 98r67 98r97
+X 23 ajis-internal.ads
+24K14*Internal 28e18 35|13w11 15r11 38r20 38r61 36|27r12 53r65 61r28 63r72
+. 63r102 89r65 96r28 98r72 98r102
+X 24 ajis-internal-java.ads
+39K23*Java 440e23 35|15w20 38r29 38r70 36|27r21 53r74 61r37 63r81 63r111
+. 89r74 96r37 98r81 98r111
+128P9*Java_Method_Access(122R9) 35|38r34
+130V13*Get_Java_Method{128P9} 35|38s75
+155U14*Initialize 36|27s26
+162P9*Java_Class_Access(159R9)
+173V13*Get_Class{31|82M12} 36|63s86 98s86
+280P12*Object_Pointer(9|53R9) 36|31r63[34|27] 31r125[34|27] 31r185[34|27]
+. 40r70[34|27] 40r132[34|27] 72r63[34|27] 72r125[34|27] 80r66[34|27] 80r128[34|27]
+290V16*To_JintArray{31|111M12} 36|43s106[34|27]
+296V16*To_Pointer{280P12[34|27]} 36|80s188[34|27]
+302U17*Free[21|20] 36|74s51[34|27]
+332V13*Create_Java_Exception{31|79M9} 36|61s42 96s42
+347V13*Throwable_Value{31|91M12} 36|53s79 89s79
+369p4*Native_Exception_Class{162P9} 36|63r116 98r116
+421V14 "<"{boolean} 7|45i19
+428V14 "="{boolean} 7|46i19
+430V14 "<"{boolean} 7|45i19
+X 25 ajis-java.ads
+24K14*Java 31e14 35|14w11 36|49r21 85r21
+26X4*Java_Exception 36|49r26 85r26
+X 26 interfac.ads
+38K9*Interfaces 231e15 35|11r6 26r46 28r35 28r82 30r56 30r103 30r140 35r59
+. 35r106 35r142 36|16r6 17r6 23r46 30r35 30r82 36r56 36r103 36r140 39r28
+. 43r25 51r22 53r23 54r20 58r22 59r22 62r16 62r49 63r26 63r141 65r26 67r20
+. 77r59 77r106 77r142 87r22 89r23 93r22 94r22 97r16 97r49 98r26 98r141 100r26
+X 27 i-c.ads
+18K20*C 237e17 36|16w17 17r17 63r152 98r152
+79E9*char<character>
+86A9*char_array(79E9)<62M9>
+91V13*To_C{86A9} 36|63s154 98s154
+X 29 i-cstrin.ads
+36K22*Strings 106e25 36|17w19
+X 30 i-java.ads
+24K20*Java 26e20 35|11r17 26r57 28r46 28r93 30r67 30r114 30r151 35r70 35r117
+. 35r153 36|23r57 30r46 30r93 36r67 36r114 36r151 39r39 43r36 51r33 53r34
+. 54r31 58r33 59r33 62r27 62r60 63r37 65r37 67r31 77r70 77r117 77r153 87r33
+. 89r34 93r33 94r33 97r27 97r60 98r37 100r37
+X 31 i-javjni.ads
+31K25*JNI 2729e24 35|11w22 26r62 28r51 28r98 30r72 30r119 30r156 35r75 35r122
+. 35r158 36|23r62 30r51 30r98 36r72 36r119 36r156 39r44 43r41 51r38 53r39
+. 54r36 58r38 59r38 62r32 62r65 63r42 65r42 67r36 77r75 77r122 77r158 87r38
+. 89r39 93r38 94r38 97r32 97r65 98r42 100r42
+57I9*J_Int<integer> 36|51r42 58r42 87r42 93r42
+79M9*J_Object<37|67M9> 35|28r102 30r123 35r126 36|30r102 36r123 39r48 59r42
+. 77r126 94r42
+80m4*J_Null_Object{79M9} 36|62r69 97r69
+82M12*J_Class{79M9}
+88M12*J_Array{79M9}
+91M12*J_Throwable{79M9}
+111M12*J_Int_J_Array{88M12} 35|30r160 35r162 36|36r160 43r45 77r162
+112m4*J_Null_Int_J_Array{111M12} 36|54r40 67r40
+266P9*JNI_Env
+267P9*JNI_Env_Access(266P9) 35|26r66 28r55 30r76 35r79 36|23r66 30r55 36r76
+. 77r79
+374V13*Throw{57I9} 36|53s43 65s46 89s43 100s46
+376V13*Throw_New{57I9} 36|63s46 98s46
+X 32 jni_binding.ads
+18K9*JNI_Binding 24e16 35|22r9 40r5 36|19r14 31r19 31r81 31r141 40r26 40r88
+. 43r62 72r19 72r81 74r7 80r22 80r84 80r144 107r5
+X 33 jni_binding-ada_jni.ads
+19K21*Ada_JNI 32|18k9 33|25e24 35|22r21 40r17 36|19r26 31r31 31r93 31r153
+. 40r38 40r100 43r74 72r31 72r93 74r19 80r34 80r96 80r156 107r17
+X 34 jni_binding-ada_jni-exceptions_jni.ads
+21K29*Exceptions_JNI 33|19k21 34|29e39 35|22r29 40r25 36|19r34 31r39 31r101
+. 31r161 40r46 40r108 43r82 72r39 72r101 74r27 80r42 80r104 80r164 107r25
+27K12*Id_JNI_5[24|278] 36|31r54 31r116 31r176 40r61 40r123 43r97 72r54 72r116
+. 74r42 80r57 80r119 80r179
+X 35 jni_binding-ada_jni-exceptions_jni-exception_occurrence_jni.ads
+22K44*Exception_Occurrence_JNI 34|21k29 35|40l40 40e64 36|19b49 107l40 107t64
+24U14*JNI_For_Body_Elaboration 36|21b14 21t57
+26U14*Initialize_Unit_JNI 26>35 36|23b14 28l8 28t27
+26p35 Id_JNI_1{31|267P9} 36|23b35 27r48
+28V13*Id_JNI_22(9|53R9) 28>24 28>71 36|30b13 34l8 34t17 40s148
+28p24 Id_JNI_1{31|267P9} 36|30b24
+28m71 Id_JNI_2{31|79M9} 36|30b71
+30V13*Exception_Occurrence_Id_JNI_21{31|111M12} 30>45 30>92 31i<c,Java_hello_Ada_Exceptions_Exception_1Occurrence_Exception_1Occurrence_1Id_1JNI_121__>22
+. 36|36b13 69l8 69t38
+30p45 Id_JNI_1{31|267P9} 36|36b45 40r158 43r120 53r50 61r65 63r57 65r53
+30m92 Id_JNI_2{31|79M9} 36|36b92 40r168
+33U14*Id_JNI_33 33^25 36|71b14 75l8 75t17 82s10
+33p25 Obj(9|53R9) 36|71b25 72r141
+35U14*deallocateNativeObject_Id_JNI_32 35>48 35>95 35>136 36i<c,Java_hello_Ada_Exceptions_Exception_1Occurrence_deallocateNativeObject_1Id_1JNI_132___3I>22
+. 36|77b14 103l8 103t40
+35p48 Id_JNI_1{31|267P9} 36|77b48 80r200 89r50 96r65 98r57 100r53
+35m95 Id_JNI_2{31|79M9} 36|77b95
+35m136 Obj{31|111M12} 36|77b136 80r210
+38p4*Id_JNI_4{24|128P9} 36|27r38
+X 36 jni_binding-ada_jni-exceptions_jni-exception_occurrence_jni.adb
+31p7 Id_JNI_27{24|280P12[34|27]} 33r14
+39m10 Id_JNI_24_Proxy{31|79M9}
+40p10 Id_JNI_25_Ptr{24|280P12[34|27]} 43r130
+43m13 Id_JNI_28{31|111M12} 45r20
+49r12 J{9|53R9} 53r130
+51i13 Result{31|57I9} 53m13
+56r12 E{9|53R9} 61r75 63r198
+58i13 Result{31|57I9} 63m16 65m16
+59m13 Except{31|79M9} 61m13 62r41 65r63
+72p7 Id_JNI_38{24|280P12[34|27]} 74m57 74r57
+80p10 Id_JNI_35{24|280P12[34|27]} 82r21
+85r12 J{9|53R9} 89r130
+87i13 Result{31|57I9} 89m13
+91r12 E{9|53R9} 96r75 98r198
+93i13 Result{31|57I9} 98m16 100m16
+94m13 Except{31|79M9} 96m13 97r41 100r63
+X 37 system.ads
+37K9*System 36|12r6 37|193e11
+67M9*Address
+81V14*"="{boolean} 36|62r35 62r37 97r35 97r37
+X 38 s-atacco.ads
+39k16*Address_To_Access_Conversions 36|12w13 38|63e41
+X 52 s-stausa.ads
+208U14*Initialize 209i<c,__gnat_stack_usage_initialize>22
+273U14*Output_Results 277i<c,__gnat_stack_usage_output_results>22
+

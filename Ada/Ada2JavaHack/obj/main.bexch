@@ -1,0 +1,23 @@
+[GENERATED OBJECT FILE]
+b__main.o
+[PROJECT FILES]
+C:\Users\randy\Documents\Ada2JavaHack\default.gpr
+20220215200832 3efcd349f51276fef258777965997f8c
+[BOUND OBJECT FILES]
+C:\Users\randy\Documents\Ada2JavaHack\obj\main.o
+[GENERATED SOURCE FILES]
+b__main.ads
+b__main.adb
+b__main.ali
+[RESULTING OPTIONS]
+-LC:\Users\randy\Documents\Ada2JavaHack\obj\
+-LC:\Users\randy\Documents\Ada2JavaHack\obj\
+-LC:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/
+-static
+-static-libgcc
+C:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/libgnarl.a
+C:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/libgnat.a
+-lws2_32
+-Xlinker
+--stack=0x200000,0x1000
+-mthreads

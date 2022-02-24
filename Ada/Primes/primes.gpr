@@ -1,0 +1,8 @@
+project Primes is
+
+   package Ide is
+      for Vcs_Kind use "Auto";
+   end Ide;
+
+end Primes;
+

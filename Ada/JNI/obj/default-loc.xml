@@ -1,0 +1,81 @@
+<?xml version="1.0"?>
+<Locations >
+  <Project >
+    <file_marker column=" 50" line=" 1268" >
+      <vfs_project>C:\Users\randy\Documents\JNI\default.gpr</vfs_project>
+      <vfs_file>C:\Users\randy\Documents\JNI\src\jni.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\randy\Documents\JNI\default.gpr</vfs_project>
+      <vfs_file>C:\Users\randy\Documents\JNI\src\jni_md.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\randy\Documents\JNI\default.gpr</vfs_project>
+      <vfs_file>C:\Users\randy\Documents\JNI\src\jni.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 58" line=" 12" >
+      <vfs_project>C:\Users\randy\Documents\JNI\default.gpr</vfs_project>
+      <vfs_file>C:\Users\randy\Documents\JNI\src\jni.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 5" line=" 13" >
+      <vfs_project>C:\Users\randy\Documents\JNI\default.gpr</vfs_project>
+      <vfs_file>C:\Users\randy\Documents\JNI\src\jni.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 27" line=" 6" >
+      <vfs_project>C:\Users\randy\Documents\JNI\default.gpr</vfs_project>
+      <vfs_file>C:\Users\randy\Documents\JNI\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 54" line=" 13" >
+      <vfs_project>C:\Users\randy\Documents\JNI\default.gpr</vfs_project>
+      <vfs_file>C:\Users\randy\Documents\JNI\src\jni.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 13" line=" 1695" >
+      <vfs_project>C:\Users\randy\Documents\JNI\default.gpr</vfs_project>
+      <vfs_file>C:\Users\randy\Documents\JNI\src\jni.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 34" line=" 1701" >
+      <vfs_project>C:\Users\randy\Documents\JNI\default.gpr</vfs_project>
+      <vfs_file>C:\Users\randy\Documents\JNI\src\jni.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 29" line=" 1703" >
+      <vfs_project>C:\Users\randy\Documents\JNI\default.gpr</vfs_project>
+      <vfs_file>C:\Users\randy\Documents\JNI\src\jni.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 40" line=" 1709" >
+      <vfs_project>C:\Users\randy\Documents\JNI\default.gpr</vfs_project>
+      <vfs_file>C:\Users\randy\Documents\JNI\src\jni.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 54" line=" 13" >
+      <vfs_project>C:\Users\randy\Documents\JNI\default.gpr</vfs_project>
+      <vfs_file>C:\Users\randy\Documents\JNI\src\jni.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 5" line=" 14" >
+      <vfs_project>C:\Users\randy\Documents\JNI\default.gpr</vfs_project>
+      <vfs_file>C:\Users\randy\Documents\JNI\src\jni.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 11" line=" 211" >
+      <vfs_project>C:\Users\randy\Documents\JNI\default.gpr</vfs_project>
+      <vfs_file>C:\Users\randy\Documents\JNI\src\jni.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 14" line=" 246" >
+      <vfs_project>C:\Users\randy\Documents\JNI\default.gpr</vfs_project>
+      <vfs_file>C:\Users\randy\Documents\JNI\src\jni.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 11" line=" 211" >
+      <vfs_project>C:\Users\randy\Documents\JNI\default.gpr</vfs_project>
+      <vfs_file>C:\Users\randy\Documents\JNI\src\jni.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 16" line=" 1695" >
+      <vfs_project>C:\Users\randy\Documents\JNI\default.gpr</vfs_project>
+      <vfs_file>C:\Users\randy\Documents\JNI\src\jni.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 34" line=" 1701" >
+      <vfs_project>C:\Users\randy\Documents\JNI\default.gpr</vfs_project>
+      <vfs_file>C:\Users\randy\Documents\JNI\src\jni.ads</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 29" line=" 1703" >
+      <vfs_project>C:\Users\randy\Documents\JNI\default.gpr</vfs_project>
+      <vfs_file>C:\Users\randy\Documents\JNI\src\jni.ads</vfs_file>
+    </file_marker>
+  </Project>
+</Locations>

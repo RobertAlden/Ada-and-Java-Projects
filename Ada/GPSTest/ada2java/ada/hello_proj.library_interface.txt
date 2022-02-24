@@ -1,0 +1,15 @@
+"Hello_Pkg",
+"JNI_Binding",
+"JNI_Binding.Ada2Java_JNI",
+"JNI_Binding.Ada2Java_JNI.Library_JNI",
+"JNI_Binding.Ada_JNI",
+"JNI_Binding.Ada_JNI.Exceptions_JNI",
+"JNI_Binding.Ada_JNI.Exceptions_JNI.Exception_Occurrence_JNI",
+"JNI_Binding.Hello_Pkg_JNI",
+"JNI_Binding.Hello_Pkg_JNI.Hello_Pkg_Package_JNI",
+"JNI_Binding.Standard_JNI",
+"JNI_Binding.Standard_JNI.AdaString_JNI",
+"JNI_Binding.Standard_JNI.Constraint_Error_JNI",
+"JNI_Binding.Standard_JNI.Program_Error_JNI",
+"JNI_Binding.Standard_JNI.Storage_Error_JNI"
+

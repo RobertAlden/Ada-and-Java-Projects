@@ -1,0 +1,126 @@
+[OBJECT FILES]
+C:\Users\randy\Documents\GPSTest\ada2java\ada\obj\hello_pkg.o
+C:\Users\randy\Documents\GPSTest\ada2java\ada\obj\jni_binding-ada2java_jni-library_jni.o
+C:\Users\randy\Documents\GPSTest\ada2java\ada\obj\jni_binding-ada2java_jni.o
+C:\Users\randy\Documents\GPSTest\ada2java\ada\obj\jni_binding-ada_jni-exceptions_jni-exception_occurrence_jni.o
+C:\Users\randy\Documents\GPSTest\ada2java\ada\obj\jni_binding-ada_jni-exceptions_jni.o
+C:\Users\randy\Documents\GPSTest\ada2java\ada\obj\jni_binding-ada_jni.o
+C:\Users\randy\Documents\GPSTest\ada2java\ada\obj\jni_binding-hello_pkg_jni-hello_pkg_package_jni.o
+C:\Users\randy\Documents\GPSTest\ada2java\ada\obj\jni_binding-hello_pkg_jni.o
+C:\Users\randy\Documents\GPSTest\ada2java\ada\obj\jni_binding-standard_jni-adastring_jni.o
+C:\Users\randy\Documents\GPSTest\ada2java\ada\obj\jni_binding-standard_jni-constraint_error_jni.o
+C:\Users\randy\Documents\GPSTest\ada2java\ada\obj\jni_binding-standard_jni-program_error_jni.o
+C:\Users\randy\Documents\GPSTest\ada2java\ada\obj\jni_binding-standard_jni-storage_error_jni.o
+C:\Users\randy\Documents\GPSTest\ada2java\ada\obj\jni_binding-standard_jni.o
+C:\Users\randy\Documents\GPSTest\ada2java\ada\obj\jni_binding.o
+[LIBRARY NAME]
+hello_proj
+[LIBRARY DIRECTORY]
+C:\Users\randy\Documents\GPSTest\ada2java\ada\lib\
+[PROJECT DIRECTORY]
+C:\Users\randy\Documents\GPSTest\ada2java\ada\
+[OBJECT DIRECTORY]
+C:\Users\randy\Documents\GPSTest\ada2java\ada\obj\
+C:\GNATPRO\17.0\lib\ajis\relocatable\
+C:\GNATPRO\17.0\lib\gnatjni\relocatable\
+[COMPILERS]
+ada
+c:\gnat\2021\bin\gcc.exe
+[COMPILER LEADING SWITCHES]
+language=ada
+-c
+-x
+ada
+-gnatA
+[COMPILER TRAILING SWITCHES]
+[PARTIAL LINKER]
+c:\gnat\2021\bin\gcc
+-nostdlib
+-no-pie
+-Wl,-r
+-o
+[DRIVER NAME]
+c:\gnat\2021\bin\gcc
+[SHARED LIB PREFIX]
+
+[SHARED LIB SUFFIX]
+.dll
+[SHARED LIB MINIMUM OPTIONS]
+-shared
+-shared-libgcc
+[LIBRARY VERSION OPTIONS]
+-Wl,-soname,
+[RUNTIME LIBRARY DIR]
+ada
+C:\gnat\2021\lib\gcc\x86_64-w64-mingw32\10.3.1\\adalib
+[RELOCATABLE]
+[IMPORTED LIBRARIES]
+C:\GNATPRO\17.0\lib\ajis\relocatable\
+ajis
+C:\GNATPRO\17.0\lib\gnatjni\relocatable\
+gnatjni
+[DEPENDENCY FILES]
+C:\Users\randy\Documents\GPSTest\ada2java\ada\obj\hello_pkg.ali
+C:\Users\randy\Documents\GPSTest\ada2java\ada\obj\jni_binding-ada2java_jni-library_jni.ali
+C:\Users\randy\Documents\GPSTest\ada2java\ada\obj\jni_binding-ada2java_jni.ali
+C:\Users\randy\Documents\GPSTest\ada2java\ada\obj\jni_binding-ada_jni-exceptions_jni-exception_occurrence_jni.ali
+C:\Users\randy\Documents\GPSTest\ada2java\ada\obj\jni_binding-ada_jni-exceptions_jni.ali
+C:\Users\randy\Documents\GPSTest\ada2java\ada\obj\jni_binding-ada_jni.ali
+C:\Users\randy\Documents\GPSTest\ada2java\ada\obj\jni_binding-hello_pkg_jni-hello_pkg_package_jni.ali
+C:\Users\randy\Documents\GPSTest\ada2java\ada\obj\jni_binding-hello_pkg_jni.ali
+C:\Users\randy\Documents\GPSTest\ada2java\ada\obj\jni_binding-standard_jni-adastring_jni.ali
+C:\Users\randy\Documents\GPSTest\ada2java\ada\obj\jni_binding-standard_jni-constraint_error_jni.ali
+C:\Users\randy\Documents\GPSTest\ada2java\ada\obj\jni_binding-standard_jni-program_error_jni.ali
+C:\Users\randy\Documents\GPSTest\ada2java\ada\obj\jni_binding-standard_jni-storage_error_jni.ali
+C:\Users\randy\Documents\GPSTest\ada2java\ada\obj\jni_binding-standard_jni.ali
+C:\Users\randy\Documents\GPSTest\ada2java\ada\obj\jni_binding.ali
+[MAPPING FILE]
+C:\Users\randy\AppData\Local\Temp\GNAT-TEMP-000003.TMP
+[TOOLCHAIN VERSION]
+ada
+GNAT 2021
+[INTERFACE DEP FILES]
+C:\Users\randy\Documents\GPSTest\ada2java\ada\obj\hello_pkg.ali
+C:\Users\randy\Documents\GPSTest\ada2java\ada\obj\jni_binding-ada2java_jni-library_jni.ali
+C:\Users\randy\Documents\GPSTest\ada2java\ada\obj\jni_binding-ada2java_jni.ali
+C:\Users\randy\Documents\GPSTest\ada2java\ada\obj\jni_binding-ada_jni-exceptions_jni-exception_occurrence_jni.ali
+C:\Users\randy\Documents\GPSTest\ada2java\ada\obj\jni_binding-ada_jni-exceptions_jni.ali
+C:\Users\randy\Documents\GPSTest\ada2java\ada\obj\jni_binding-ada_jni.ali
+C:\Users\randy\Documents\GPSTest\ada2java\ada\obj\jni_binding-hello_pkg_jni-hello_pkg_package_jni.ali
+C:\Users\randy\Documents\GPSTest\ada2java\ada\obj\jni_binding-hello_pkg_jni.ali
+C:\Users\randy\Documents\GPSTest\ada2java\ada\obj\jni_binding-standard_jni-adastring_jni.ali
+C:\Users\randy\Documents\GPSTest\ada2java\ada\obj\jni_binding-standard_jni-constraint_error_jni.ali
+C:\Users\randy\Documents\GPSTest\ada2java\ada\obj\jni_binding-standard_jni-program_error_jni.ali
+C:\Users\randy\Documents\GPSTest\ada2java\ada\obj\jni_binding-standard_jni-storage_error_jni.ali
+C:\Users\randy\Documents\GPSTest\ada2java\ada\obj\jni_binding-standard_jni.ali
+C:\Users\randy\Documents\GPSTest\ada2java\ada\obj\jni_binding.ali
+[STANDALONE MODE]
+STANDARD
+[INTERFACE OBJ FILES]
+C:\Users\randy\Documents\GPSTest\ada2java\ada\obj\hello_pkg.o
+C:\Users\randy\Documents\GPSTest\ada2java\ada\obj\jni_binding-ada2java_jni-library_jni.o
+C:\Users\randy\Documents\GPSTest\ada2java\ada\obj\jni_binding-ada2java_jni.o
+C:\Users\randy\Documents\GPSTest\ada2java\ada\obj\jni_binding-ada_jni-exceptions_jni-exception_occurrence_jni.o
+C:\Users\randy\Documents\GPSTest\ada2java\ada\obj\jni_binding-ada_jni-exceptions_jni.o
+C:\Users\randy\Documents\GPSTest\ada2java\ada\obj\jni_binding-ada_jni.o
+C:\Users\randy\Documents\GPSTest\ada2java\ada\obj\jni_binding-hello_pkg_jni-hello_pkg_package_jni.o
+C:\Users\randy\Documents\GPSTest\ada2java\ada\obj\jni_binding-hello_pkg_jni.o
+C:\Users\randy\Documents\GPSTest\ada2java\ada\obj\jni_binding-standard_jni-adastring_jni.o
+C:\Users\randy\Documents\GPSTest\ada2java\ada\obj\jni_binding-standard_jni-constraint_error_jni.o
+C:\Users\randy\Documents\GPSTest\ada2java\ada\obj\jni_binding-standard_jni-program_error_jni.o
+C:\Users\randy\Documents\GPSTest\ada2java\ada\obj\jni_binding-standard_jni-storage_error_jni.o
+C:\Users\randy\Documents\GPSTest\ada2java\ada\obj\jni_binding-standard_jni.o
+C:\Users\randy\Documents\GPSTest\ada2java\ada\obj\jni_binding.o
+[OBJECT LISTER]
+C:\GNAT\2021\bin\nm.exe
+-g
+--no-demangle
+[OBJECT LISTER MATCHER]
+ [TDRB] (.*)
+[EXPORT FILE]
+GNU
+-Wl,--version-script=
+[MAX COMMAND LINE LENGTH]
+ 8192
+[RESPONSE FILE FORMAT]
+GCC_GNU
