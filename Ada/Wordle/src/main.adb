@@ -1,18 +1,53 @@
 with Ada.Text_IO; use Ada.Text_IO;
+with Ada.Command_Line; use Ada.Command_Line;
 with Ada.Strings;           use Ada.Strings;
+with Ada.Strings.Bounded;    use Ada.Strings.Bounded;
 with Ada.Strings.Unbounded; use Ada.Strings.Unbounded;
 with Ada.Numerics.Discrete_Random;
 
 procedure Main is
+
+   package Custom_String is new Ada.Strings.Bounded.Generic_Bounded_Length (Max => 256); use Custom_String; --> Surely that's enough...
+
    F         : File_Type;
-   File_Name : constant String := "words.txt";
-   Valid_Words_File_Name : constant String := "valid_words.txt";
+   File_Name : Bounded_String;
+   Valid_Words_File_Name : Bounded_String;
+   Default_File_Name : constant String := "words.txt";
+   Default_Valid_Words_File_Name : constant String := "valid_words.txt";
    Word : String(1 .. 5);
    Word_Count : Integer := 0;
    Selected_Word_Index : Integer;
    SU : Unbounded_String;
    Padding : String := "     ";
 
+   function File_Exists (Name : String) return Boolean is
+      The_File : Ada.Text_IO.File_Type;
+   begin
+      Open (The_File, In_File, Name);
+      Close (The_File);
+      return True;
+   exception
+      when Name_Error =>
+         return False;
+   end File_Exists;
+
+   procedure Validate_Args (Selectable_Word_List_File : in out Bounded_String;
+                            Valid_Word_List_File : in out Bounded_String) is
+   begin
+      if Argument_Count = 1 then -- only the first file was provided, so use it if it exists
+         if File_Exists (Argument (Number => 1)) then
+            Selectable_Word_List_File := To_Bounded_String (Argument (Number => 1));
+         end if;
+      elsif Argument_Count = 2 then -- two files were provided, so check each and use them if possible
+         if File_Exists (Argument (Number => 1)) then
+            Selectable_Word_List_File := To_Bounded_String (Argument (Number => 1));
+         end if;
+
+         if File_Exists (Argument (Number => 2)) then
+            Valid_Word_List_File := To_Bounded_String (Argument (Number => 2));
+         end if;
+      end if;
+   end Validate_Args;
 
    subtype Random_Range is Integer range 1 .. 100000;
    package R is new
@@ -28,8 +63,13 @@ procedure Main is
    State : Integer := 0;
    Flag : Integer := 0;
 begin
+   File_Name := To_Bounded_String (Default_File_Name);
+   Valid_Words_File_Name := To_Bounded_String (Default_Valid_Words_File_Name);
+
+   Validate_Args (Selectable_Word_List_File => File_Name,
+                  Valid_Word_List_File => Valid_Words_File_Name);
    reset(G);
-   Open (F, In_File, File_Name);
+   Open (F, In_File, To_String(File_Name));
    while not End_Of_File (F) loop
       Word := Get_Line (F);
       Word_Count := Word_Count + 1;
@@ -39,7 +79,7 @@ begin
 
    Close (F);
 
-   Open (F, In_File, File_Name);
+   Open (F, In_File, To_String(File_Name));
    for I in 1 .. Selected_Word_Index loop
       Word := Get_Line(F);
    end loop;
@@ -63,7 +103,7 @@ begin
 
          Guessed_Word := To_String(SU)(1..5);
          Flag := 0;
-         Open (F, In_File, Valid_Words_File_Name);
+         Open (F, In_File, To_String(Valid_Words_File_Name));
          while not End_Of_File (F) loop
             if Guessed_Word = Get_Line(F) then
                Flag := 1;

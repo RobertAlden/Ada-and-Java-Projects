@@ -1,3 +1,0 @@
-test.adb:4:06: error: file "jni_md.ads" not found
-test.adb:4:06: error: "Test (body)" depends on "Jni (spec)"
-test.adb:4:06: error: "Jni (spec)" depends on "Jni_Md (spec)"
