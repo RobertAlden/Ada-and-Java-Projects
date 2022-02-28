@@ -4,7 +4,7 @@ package MazeNodes is
    type Direction is (North, East, South, West, None);
 
    type MazeNode;
-   type ptr_MazeNode is access MazeNode;
+   type ptr_MazeNode is access all MazeNode;
    type MazeNode is tagged
       record
          Connection : ptr_MazeNode;
@@ -14,8 +14,10 @@ package MazeNodes is
          SouthWall : MazeWall;
          WestWall : MazeWall;
          Index : Integer;
+         Visited : Boolean;
       end record;
 
    procedure Connect (This : in out MazeNode;
-                      Target : in out MazeNode);
+                      Target : in out ptr_MazeNode;
+                      D : Direction);
 end MazeNodes;
