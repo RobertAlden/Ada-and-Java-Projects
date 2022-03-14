@@ -86,6 +86,7 @@ procedure Main is
 
    procedure MazeGenBacktrack is
       subtype Random_Direction is Direction range North..West;
+      subtype Random_Coordinate is Integer range 1..Dim;
 
       package R is new
         Ada.Numerics.Discrete_Random (Random_Direction);
@@ -120,8 +121,10 @@ procedure Main is
          return MazeNodeMap(pCellX,pCellY)'Unchecked_Access;
       end IndexToPtr;
    begin
+      Reset(G);
+
       --Choose the initial cell, mark it as visited and push it to the stack
-      CurrentCell := MazeNodeMap(1,1)'Unchecked_Access;
+      CurrentCell := MazeNodeMap(Dim/2,Dim/2)'Unchecked_Access;
       CurrentCell.Visited := True;
       Stack.Append(CurrentCell.all.Index);
       --While the stack is not empty
@@ -185,6 +188,10 @@ procedure Main is
             Stack.Prepend(NextCell.Index);
          end if;
       end loop;
+      NextCell := MazeNodeMap(1,1)'Unchecked_Access;
+      MazeNodeMap(1,1).Connect(NextCell,North);
+      NextCell := MazeNodeMap(Dim,Dim)'Unchecked_Access;
+      MazeNodeMap(Dim,Dim).Connect(NextCell,South);
    end MazeGenBacktrack;
 
 begin
